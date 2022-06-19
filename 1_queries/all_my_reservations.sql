@@ -1,4 +1,5 @@
-/* Select query get all user reservations details and details about the property associated with the reservation. */
+/* Select query get all user reservations details and details about the 
+property associated with the reservation. */
 
 SELECT reservations.id, properties.title, properties.cost_per_night, reservations.start_date, avg(rating) as average_rating
 FROM reservations
